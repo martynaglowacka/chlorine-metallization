@@ -1,0 +1,8 @@
+lattice_vector 4.75 0.00000 0.00000
+lattice_vector 0.00000 4.75 0.00000
+lattice_vector 0.00000 0.00000 4.75
+
+atom_frac 0.00000 0.00000 0.00000 Cl
+atom_frac 0.00000 0.50000 0.50000 Cl
+atom_frac 0.50000 0.00000 0.50000 Cl
+atom_frac 0.50000 0.50000 0.00000 Cl

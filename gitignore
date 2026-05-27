@@ -1,0 +1,20 @@
+# macOS
+.DS_Store
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Scheduler logs (uncomment to exclude — currently small, kept for provenance)
+# slurm-*.out
+
+# Backup directories (do not commit these)
+aims_ORIGINAL_BACKUP/
+*.tar.gz
+*.zip
+
+# Large intermediate files that can be regenerated from inputs
+*.cube
+restart*
+Mulliken.out

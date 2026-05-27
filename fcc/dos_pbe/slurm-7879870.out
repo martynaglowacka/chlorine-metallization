@@ -1,0 +1,756 @@
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+Checking permissions to load module. User shall belong to group fhiaimsACL.
+User mkryn belongs to following groups: icm-users vaspACL vasp5ACL okeanosACL fhiaimsACL topolaACL G59-19 GB84-5
+ User mkryn belongs to group fhiaimsACL and is allowed to use apps/fhi-aims/221103.
+ 'apps/fhi-aims/221103' load complete.
+
+Loading apps/fhi-aims/221103
+  Loading requirement: common/mpi/openmpi/4.1.5
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+==========================================
+SLURM_JOB_ID = 7879870
+SLURM_JOB_NODELIST = t12-15
+==========================================
+------------------------------------------------------------
+          Invoking FHI-aims ...
+
+          When using FHI-aims, please cite the following reference:
+
+            Volker Blum, Ralf Gehrke, Felix Hanke, Paula Havu,
+            Ville Havu, Xinguo Ren, Karsten Reuter, and Matthias Scheffler,
+            'Ab Initio Molecular Simulations with Numeric Atom-Centered Orbitals',
+            Computer Physics Communications 180, 2175-2196 (2009)
+
+          In addition, many other developments in FHI-aims are likely important for
+          your particular application. A partial list of references is given at the end of
+          this file. Thank you for giving credit to the authors of these developments.
+
+          For any questions about FHI-aims, please visit our slack channel at
+
+            https://fhi-aims.slack.com
+
+          and our main development and support site at
+
+            https://aims-git.rz-berlin.mpg.de .
+
+          The latter site, in particular, has a wiki to collect information, as well
+          as an issue tracker to log discussions, suggest improvements, and report issues
+          or bugs. https://aims-git.rz-berlin.mpg.de is also the main development site
+          of the project and all new and updated code versions can be obtained there.
+          Please send an email to aims-coordinators@fhi-berlin.mpg.de and we will add
+          you to these sites. They are for you and everyone is welcome there.
+
+------------------------------------------------------------
+
+
+
+  Date     :  20240703, Time     :  172243.937
+  Time zero on CPU 1             :   0.252334000000000E+00  s.
+  Internal wall clock time zero  :           489259363.937  s.
+
+  FHI-aims created a unique identifier for this run for later identification
+  aims_uuid : 9664A474-EB8C-4F18-A879-CB6A182A2D3D
+
+  Build configuration of the current instance of FHI-aims
+  -------------------------------------------------------
+  FHI-aims version      : 221103
+  Commit number         : GITDIR-NOTFOUND
+  CMake host system     : Linux-3.10.0-1160.88.1.el7.x86_64
+  CMake version         : 3.26.4
+  Fortran compiler      : /apps/common/mpi/openmpi/4.1.5/GCC-12.3/bin/mpifort (GNU) version 12.3.0
+  Fortran compiler flags: -O2 -march=native -mtune=native -fallow-argument-mismatch -ffree-line-length-none -fopenmp -O3 -DNDEBUG -O3
+  C compiler            : /apps/common/mpi/openmpi/4.1.5/GCC-12.3/bin/mpicc (GNU) version 12.3.0
+  C compiler flags      : -O2 -march=native -mtune=native -fopenmp -O3 -DNDEBUG
+  HIP compiler          :
+  HIP compiler flags    :
+  HIP GPU arch          :
+  Using MPI
+  Using ScaLAPACK
+  Using LibXC
+  Using i-PI
+  Using HDF5
+  Using RLSY
+  Linking against: /apps/libs/libxc/6.2.2/GCC-12.3/lib/libxcf03.so
+                   /apps/libs/libxc/6.2.2/GCC-12.3/lib/libxcf90.so
+                   /apps/libs/libxc/6.2.2/GCC-12.3/lib/libxc.so
+                   /apps/libs/hdf5/1.10.10-par/GCC-12.3/lib/libhdf5_fortran.so
+                   /apps/libs/hdf5/1.10.10-par/GCC-12.3/lib/libhdf5.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libelsi.so
+                   /apps/libs/elpa/2023.05/GCC-12.3/lib/libelpa.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/bundled-omm/lib/libOMM.a
+                   /apps/libs/elsi/2.9.0/GCC-12.3/bundled-omm/lib/libMatrixSwitch.a
+                   /apps/libs/pexsi/0.9.2/GCC-12.3/lib/libpexsi.a
+                   /apps/libs/eigenexa/2.4p1/GCC-12.3/lib/libEigenExa.a
+                   /apps/libs/superlu-dist/4.3/GCC-12.3/lib/libsuperlu-dist.a
+                   /apps/libs/parmetis/4.0.3/GCC-12.3/lib/libparmetis.a
+                   /apps/libs/metis/5.1.1/GCC-12.3/lib/libmetis.a
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libbsepack.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libfortjson.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libNTPoly.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libsseig.so
+                   /apps/libs/scalapack/2.2.1/GCC-12.3/lib/libscalapack.a
+                   /apps/libs/openblas/0.3.23/GCC-12.3/lib64/libopenblas.a
+                   /usr/lib64/libm.so
+
+  Using       28 parallel tasks.
+  Task        0 on host t12-15 reporting.
+  Task        1 on host t12-15 reporting.
+  Task        2 on host t12-15 reporting.
+  Task        3 on host t12-15 reporting.
+  Task        4 on host t12-15 reporting.
+  Task        5 on host t12-15 reporting.
+  Task        6 on host t12-15 reporting.
+  Task        7 on host t12-15 reporting.
+  Task        8 on host t12-15 reporting.
+  Task        9 on host t12-15 reporting.
+  Task       10 on host t12-15 reporting.
+  Task       11 on host t12-15 reporting.
+  Task       12 on host t12-15 reporting.
+  Task       13 on host t12-15 reporting.
+  Task       14 on host t12-15 reporting.
+  Task       15 on host t12-15 reporting.
+  Task       16 on host t12-15 reporting.
+  Task       17 on host t12-15 reporting.
+  Task       18 on host t12-15 reporting.
+  Task       19 on host t12-15 reporting.
+  Task       20 on host t12-15 reporting.
+  Task       21 on host t12-15 reporting.
+  Task       22 on host t12-15 reporting.
+  Task       23 on host t12-15 reporting.
+  Task       24 on host t12-15 reporting.
+  Task       25 on host t12-15 reporting.
+  Task       26 on host t12-15 reporting.
+  Task       27 on host t12-15 reporting.
+
+  Performing system and environment tests:
+  | Environment variable OMP_NUM_THREADS correctly set to 1.
+  | Checking for ScaLAPACK...
+  | Testing pdtran()...
+  | All pdtran() tests passed.
+
+  Obtaining array dimensions for all initial allocations:
+  
+  -----------------------------------------------------------------------
+  Parsing control.in (first pass over file, find array dimensions only).
+  The contents of control.in will be repeated verbatim below
+  unless switched off by setting 'verbatim_writeout .false.' .
+  in the first line of control.in .
+  -----------------------------------------------------------------------
+  
+  xc                         hse06 0.11
+  hse_unit                   bohr
+  hybrid_xc_coeff            0.25
+  relativistic               atomic_zora scalar
+  k_grid                     12 12 12
+  output                     dos    -20 20 15001 0.1
+  output                     band   0.00000  0.00000  0.00000   0.50000  0.00000  0.50000   35 G  X
+  output                     band   0.50000  0.00000  0.50000   0.50000  0.25000  0.75000   17 X  W
+  output                     band   0.50000  0.25000  0.75000   0.37500  0.37500  0.75000   12 W  K
+  output                     band   0.37500  0.37500  0.75000   0.00000  0.00000  0.00000   37 K  G
+  output                     band   0.00000  0.00000  0.00000   0.50000  0.50000  0.50000   30 G  L
+  output                     band   0.50000  0.50000  0.50000   0.62500  0.25000  0.62500   21 L  U
+  output                     band   0.62500  0.25000  0.62500   0.50000  0.25000  0.75000   12 U  W
+  output                     band   0.50000  0.25000  0.75000   0.50000  0.50000  0.50000   24 W  L
+  output                     band   0.50000  0.50000  0.50000   0.37500  0.37500  0.75000   21 L  K
+  output                     band   0.62500  0.25000  0.62500   0.50000  0.00000  0.50000   12 U  X
+  
+  
+  
+  ################################################################################
+  #
+  #  FHI-aims code project
+  #  Volker Blum, 2017
+  #
+  #  Suggested "intermediate" defaults for Cl atom (to be pasted into control.in file)
+  #
+  ################################################################################
+    species        Cl
+  #     global species definitions
+      nucleus             17
+      mass                35.453
+  #
+      l_hartree           6
+  #
+      cut_pot             4.0          2.0  1.0
+      basis_dep_cutoff    1e-4
+  #
+      radial_base         45 7.0
+      radial_multiplier   2
+      angular_grids       specified
+        division   0.4412  110
+        division   0.5489  194
+        division   0.6734  302
+        division   0.7794  434
+  #      division   0.9402  590
+  #      division   1.0779  770
+  #      division   1.1792  974
+  #      outer_grid  974
+        outer_grid  434
+  ################################################################################
+  #
+  #  Definition of "minimal" basis
+  #
+  ################################################################################
+  #     valence basis states
+      valence      3  s   2.
+      valence      3  p   5.
+  #     ion occupancy
+      ion_occ      3  s   1.
+      ion_occ      3  p   4.
+  ################################################################################
+  #
+  #  Suggested additional basis functions. For production calculations,
+  #  uncomment them one after another (the most important basis functions are
+  #  listed first).
+  #
+  #  Constructed for dimers: 1.65 A, 2.0 A, 2.5 A, 3.25 A, 4.0 A
+  #
+  ################################################################################
+  #  "First tier" - improvements: -429.57 meV to -15.03 meV
+       ionic 3 d auto
+       hydro 2 p 1.9
+       hydro 4 f 7.4
+       ionic 3 s auto
+       for_aux     hydro 5 g 10.4
+  #  "Second tier" - improvements: -7.84 meV to -0.48 meV
+  #     hydro 3 d 3.3
+  #     hydro 5 f 9.8
+  #     hydro 1 s 0.75
+  #     hydro 5 g 11.2
+  #     hydro 4 p 10.4
+  #  "Third tier" - improvements: -1.00 meV to -0.12 meV
+  #     hydro 4 d 12.8
+  #     hydro 4 f 4.6
+  #     hydro 4 d 10.8
+  #     hydro 2 s 1.8
+  #     hydro 3 p 3
+  #  Further functions that fell out - improvements: -0.10 meV and below
+  #     hydro 5 f 14.4
+  #     hydro 4 s 12.8
+  #     hydro 3 d 11.6
+  #     hydro 4 s 4.1
+  
+  
+  -----------------------------------------------------------------------
+  Completed first pass over input file control.in .
+  -----------------------------------------------------------------------
+  
+  
+  -----------------------------------------------------------------------
+  Parsing geometry.in (first pass over file, find array dimensions only).
+  The contents of geometry.in will be repeated verbatim below
+  unless switched off by setting 'verbatim_writeout .false.' .
+  in the first line of geometry.in .
+  -----------------------------------------------------------------------
+  
+  #
+  # This is the geometry file that corresponds to the current relaxation step.
+  # If you do not want this file to be written, set the "write_restart_geometry" flag to .false.
+  #  aims_uuid : D60966A3-C45B-4BC2-ABB9-FD14E97A432A
+  #
+  lattice_vector      3.11547005     -0.00000000      0.00000000
+  lattice_vector     -0.00000000      3.11547006     -0.00000000
+  lattice_vector      0.00000000     -0.00000000      3.11547006
+  atom_frac       0.00000000     -0.00000000      0.00000000 Cl
+  atom_frac       0.00000000      0.50000000      0.50000000 Cl
+  atom_frac       0.50000000      0.00000000      0.50000000 Cl
+  atom_frac       0.50000000      0.50000000      0.00000000 Cl
+  #
+  # What follows is the current estimated Hessian matrix constructed by the BFGS algorithm.
+  # This is NOT the true Hessian matrix of the system.
+  # If you do not want this information here, switch it off using the "hessian_to_restart_geometry" keyword.
+  #
+  trust_radius             0.2000000030
+  hessian_file
+  
+  -----------------------------------------------------------------------
+  Completed first pass over input file geometry.in .
+  -----------------------------------------------------------------------
+  
+
+  Basic array size parameters:
+  | Number of species                 :        1
+  | Number of atoms                   :        4
+  | Number of lattice vectors         :        3
+  | Max. basis fn. angular momentum   :        4
+  | Max. atomic/ionic basis occupied n:        3
+  | Max. number of basis fn. types    :        3
+  | Max. radial fns per species/type  :        5
+  | Max. logarithmic grid size        :     1362
+  | Max. radial integration grid size :       91
+  | Max. angular integration grid size:      434
+  | Max. angular grid division number :        8
+  | Radial grid for Hartree potential :     1362
+  | Number of spin channels           :        1
+
+------------------------------------------------------------
+          Reading file control.in.
+------------------------------------------------------------
+
+  XC: Using HSE-functional with OMEGA =  0.110000E+00 <units>.
+  XC: For the actual units (bohr^-1 or Angstrom^-1), see below.
+  hse_unit: Unit for the HSE06 hybrid functional screening parameter set to bohr^(-1).
+  hybrid_xc_coeff: Mixing coefficient for hybrid-functional exact exchange modified to         0.25000000 .
+  * WARNING: This change modifies the chosen exchange-correlation functional (keyword 'xc')
+  * from its literature definition. Be sure to NEVER include such a line in any default control.in files!
+  Scalar relativistic treatment of kinetic energy: on-site free-atom approximation to ZORA.
+  Found k-point grid:        12        12        12
+  Calculating density of states with
+  | energy interval :-20.000000 20.000000
+  | points & broadening : 15001  0.100000
+
+  Plot band    1
+  | begin  0.000000  0.000000  0.000000
+  | end    0.500000  0.000000  0.500000
+  | number of points:   35
+
+  Plot band    2
+  | begin  0.500000  0.000000  0.500000
+  | end    0.500000  0.250000  0.750000
+  | number of points:   17
+
+  Plot band    3
+  | begin  0.500000  0.250000  0.750000
+  | end    0.375000  0.375000  0.750000
+  | number of points:   12
+
+  Plot band    4
+  | begin  0.375000  0.375000  0.750000
+  | end    0.000000  0.000000  0.000000
+  | number of points:   37
+
+  Plot band    5
+  | begin  0.000000  0.000000  0.000000
+  | end    0.500000  0.500000  0.500000
+  | number of points:   30
+
+  Plot band    6
+  | begin  0.500000  0.500000  0.500000
+  | end    0.625000  0.250000  0.625000
+  | number of points:   21
+
+  Plot band    7
+  | begin  0.625000  0.250000  0.625000
+  | end    0.500000  0.250000  0.750000
+  | number of points:   12
+
+  Plot band    8
+  | begin  0.500000  0.250000  0.750000
+  | end    0.500000  0.500000  0.500000
+  | number of points:   24
+
+  Plot band    9
+  | begin  0.500000  0.500000  0.500000
+  | end    0.375000  0.375000  0.750000
+  | number of points:   21
+
+  Plot band   10
+  | begin  0.625000  0.250000  0.625000
+  | end    0.500000  0.000000  0.500000
+  | number of points:   12
+
+  Reading configuration options for species Cl                  .
+  | Found nuclear charge :  17.0000
+  | Found atomic mass :    35.453000000000003      amu
+  | Found l_max for Hartree potential  :   6
+  | Found cutoff potl. onset [A], width [A], scale factor :    4.00000    2.00000    1.00000
+  | Threshold for basis-dependent cutoff potential is   0.100000E-03
+  | Found data for basic radial integration grid :    45 points, outermost radius =    7.000 A
+  | Found multiplier for basic radial grid :   2
+  | Found angular grid specification: user-specified.
+  | Specified grid contains     5 separate shells.
+  | Check grid settings after all constraints further below.
+  | Found free-atom valence shell :  3 s   2.000
+  | Found free-atom valence shell :  3 p   5.000
+  | Found free-ion valence shell :  3 s   1.000
+  | Found free-ion valence shell :  3 p   4.000
+  | Found ionic basis function :  3 d , default cutoff radius.
+  | Found hydrogenic basis function :  2 p   1.900
+  | Found hydrogenic basis function :  4 f   7.400
+  | Found ionic basis function :  3 s , default cutoff radius.
+  | Found hydrogenic extended basis function :  5 g  10.400
+  Species Cl                  : Missing cutoff potential type.
+  Defaulting to exp(1/x)/(1-x)^2 type cutoff potential.
+  Species Cl: No 'logarithmic' tag. Using default grid for free atom:
+  | Default logarithmic grid data [bohr] : 0.1000E-03 0.1000E+03 0.1012E+01
+  | Will include ionic basis functions of  2.0-fold positive Cl                   ion.
+  Species Cl: On-site basis accuracy parameter (for Gram-Schmidt orthonormalisation) not specified.
+  Using default value basis_acc =  0.1000000E-03.
+  Species Cl                  : Using default innermost maximum threshold i_radial=  2 for radial functions.
+  Species Cl                  : Default cutoff onset for free atom density etc. : 0.40000000E+01 AA.
+  Species Cl                  : Basic radial grid will be enhanced according to radial_multiplier =   2, to contain    91 grid points.
+
+  Finished reading input file 'control.in'.
+
+------------------------------------------------------------
+
+
+------------------------------------------------------------
+          Reading geometry description geometry.in.
+------------------------------------------------------------
+ * Large trust radius value found - resetting to the current value of max_atomic_move,      0.20000000 A.
+  Found keyword 'hessian_file', indicating that this is the continuation of a structure optimization.
+  However, the control.in file does not request the geometry to be optimized.
+  Ignoring the request for a file 'hessian.aims' to be present.
+  | The smallest distance between any two atoms is         2.20297000 AA.
+  | The first atom of this pair is atom number                      1 .
+  | The second atom of this pair is atom number                     3 .
+  | Wigner-Seitz cell of the first atom image           0     0     0 .
+  | (The Wigner-Seitz cell of the second atom is 0 0 0  by definition.)
+
+  Symmetry information by spglib:
+  | Precision set to  0.1E-04
+  | Number of Operations  : 192
+  | Space group           : 225
+  | International         : Fm-3m
+  | Schoenflies           : Oh^5
+  Input structure read successfully.
+  The structure contains        4 atoms,  and a total of         68.000 electrons.
+
+  Input geometry:
+  | Unit cell:
+  |        3.11547005       -0.00000000        0.00000000
+  |       -0.00000000        3.11547006       -0.00000000
+  |        0.00000000       -0.00000000        3.11547006
+  | Atomic structure:
+  |       Atom                x [A]            y [A]            z [A]
+  |    1: Species Cl            0.00000000        0.00000000        0.00000000
+  |    2: Species Cl            0.00000000        1.55773503        1.55773503
+  |    3: Species Cl            1.55773502        0.00000000        1.55773503
+  |    4: Species Cl            1.55773502        1.55773503        0.00000000
+
+  Lattice parameters for 3D lattice (in Angstroms) :     3.115470    3.115470    3.115470
+  Angle(s) between unit vectors (in degrees)       :    90.000000   90.000000   90.000000
+
+
+  Quantities derived from the lattice vectors (in Angstrom^-1):
+  | Reciprocal lattice vector 1:  2.016770  0.000000  0.000000
+  | Reciprocal lattice vector 2:  0.000000  2.016770  0.000000
+  | Reciprocal lattice vector 3:  0.000000  0.000000  2.016770
+  | Unit cell volume                               :   0.302392E+02  Angstrom^3
+
+  Fractional coordinates:
+                         L1                L2                L3
+       atom_frac         0.00000000        0.00000000        0.00000000  Cl
+       atom_frac         0.00000000        0.50000000        0.50000000  Cl
+       atom_frac         0.50000000        0.00000000        0.50000000  Cl
+       atom_frac         0.50000000        0.50000000        0.00000000  Cl
+
+
+  Finished reading input file 'geometry.in'.
+
+
+
+  Consistency checks for stacksize environment parameter are next.
+
+  | Maximum stacksize for task 0: unlimited
+  | Maximum stacksize for task 1: unlimited
+  | Maximum stacksize for task 2: unlimited
+  | Maximum stacksize for task 3: unlimited
+  | Maximum stacksize for task 4: unlimited
+  | Maximum stacksize for task 5: unlimited
+  | Maximum stacksize for task 6: unlimited
+  | Maximum stacksize for task 7: unlimited
+  | Maximum stacksize for task 8: unlimited
+  | Maximum stacksize for task 9: unlimited
+  | Maximum stacksize for task 10: unlimited
+  | Maximum stacksize for task 11: unlimited
+  | Maximum stacksize for task 12: unlimited
+  | Maximum stacksize for task 13: unlimited
+  | Maximum stacksize for task 14: unlimited
+  | Maximum stacksize for task 15: unlimited
+  | Maximum stacksize for task 16: unlimited
+  | Maximum stacksize for task 17: unlimited
+  | Maximum stacksize for task 18: unlimited
+  | Maximum stacksize for task 19: unlimited
+  | Maximum stacksize for task 20: unlimited
+  | Maximum stacksize for task 21: unlimited
+  | Maximum stacksize for task 22: unlimited
+  | Maximum stacksize for task 23: unlimited
+  | Maximum stacksize for task 24: unlimited
+  | Maximum stacksize for task 25: unlimited
+  | Maximum stacksize for task 26: unlimited
+  | Maximum stacksize for task 27: unlimited
+  | Current stacksize for task 0: unlimited
+  | Current stacksize for task 1: unlimited
+  | Current stacksize for task 2: unlimited
+  | Current stacksize for task 3: unlimited
+  | Current stacksize for task 4: unlimited
+  | Current stacksize for task 5: unlimited
+  | Current stacksize for task 6: unlimited
+  | Current stacksize for task 7: unlimited
+  | Current stacksize for task 8: unlimited
+  | Current stacksize for task 9: unlimited
+  | Current stacksize for task 10: unlimited
+  | Current stacksize for task 11: unlimited
+  | Current stacksize for task 12: unlimited
+  | Current stacksize for task 13: unlimited
+  | Current stacksize for task 14: unlimited
+  | Current stacksize for task 15: unlimited
+  | Current stacksize for task 16: unlimited
+  | Current stacksize for task 17: unlimited
+  | Current stacksize for task 18: unlimited
+  | Current stacksize for task 19: unlimited
+  | Current stacksize for task 20: unlimited
+  | Current stacksize for task 21: unlimited
+  | Current stacksize for task 22: unlimited
+  | Current stacksize for task 23: unlimited
+  | Current stacksize for task 24: unlimited
+  | Current stacksize for task 25: unlimited
+  | Current stacksize for task 26: unlimited
+  | Current stacksize for task 27: unlimited
+
+  Consistency checks for the contents of control.in are next.
+
+  HSE06 screening parameters: omega_HF  =      0.11000000 bohr^-1, and
+                              omega_PBE =      0.11000000 bohr^-1.
+  MPI_IN_PLACE appears to work with this MPI implementation.
+  | Keeping use_mpi_in_place .true. (see manual).
+  Explicit treatment of the Coulomb operator is needed, but the RI method is not specified.
+  Coulomb operator: Defaulting to 'LVL fast' resolution of identity - RI_type = LVL_fast
+  Species Cl: Using default value for prodbas_acc =   1.000000E-04.
+  Species Cl: Using default value max_l_prodbas =    20.
+  Target number of points in a grid batch is not set. Defaulting to  100
+  Method for grid partitioning is not set. Defaulting to parallel hash+maxmin partitioning.
+  Batch size limit is not set. Defaulting to    200
+  By default, will store active basis functions for each batch.
+  If in need of memory, prune_basis_once .false. can be used to disable this option.
+  communication_type for Hartree potential was not specified.
+  Defaulting to calc_hartree .
+  Defaulting to Pulay charge density mixer.
+  Pulay mixer: Number of relevant iterations not set.
+  Defaulting to    8 iterations.
+  Pulay mixer: Number of initial linear mixing iterations not set.
+  Defaulting to    0 iterations.
+  Work space size for distributed Hartree potential not set.
+  Defaulting to   0.200000E+03 MB.
+  Mixing parameter for charge density mixing has not been set.
+  Using default: charge_mix_param =     0.0500.
+  The mixing parameter will be adjusted in iteration number     2 of the first full s.c.f. cycle only.
+  Algorithm-dependent basis array size parameters:
+  | n_max_pulay                         :        8
+  Maximum number of self-consistency iterations not provided.
+  Presetting  1000 iterations.
+  Presetting      1001 iterations before the initial mixing cycle
+  is restarted anyway using the sc_init_iter criterion / keyword.
+  Presetting a factor      1.000 between actual scf density residual
+  and density convergence criterion sc_accuracy_rho below which sc_init_iter
+  takes no effect.
+ * No s.c.f. convergence criteria (sc_accuracy_*) were provided in control.in.
+ * The run will proceed with a reasonable default guess, but please check whether.
+ * the s.c.f. cycles seem to take too much or too little time.
+  Calculation of forces was not defined in control.in. No forces will be calculated.
+  Geometry relaxation not requested: no relaxation will be performed.
+ * Notice: The s.c.f. convergence criterion sc_accuracy_rho was not provided.
+ * We used to stop in this case, and ask the user to provide reasonable
+ * scf convergence criteria. However, this led some users to employ criteria
+ * that led to extremely long run times, e.g., for simple relaxation.
+ * We now preset a default value for sc_accuracy_rho if it is not set.
+ * You may still wish to check if this setting is too tight or too loose for your needs.
+ * Based on n_atoms and forces and force-correction status, FHI-aims chose sc_accuracy_rho =  0.100000E-05 .
+  No accuracy limit for integral partition fn. given. Defaulting to  0.1000E-14.
+  No threshold value for u(r) in integrations given. Defaulting to  0.1000E-05.
+  No occupation type (smearing scheme) given. Defaulting to Gaussian broadening, width =  0.1000E-01 eV.
+  The width will be adjusted in iteration number     2 of the first full s.c.f. cycle only.
+  S.C.F. convergence parameters will be adjusted in iteration number     2 of the first full s.c.f. cycle only.
+  No accuracy for occupation numbers given. Defaulting to  0.1000E-12.
+  No threshold value for occupation numbers given. Defaulting to  0.0000E+00.
+  No accuracy for fermi level given. Defaulting to  0.1000E-19.
+  Maximum # of iterations to find E_F not set. Defaulting to  200.
+  Preferred method for the eigenvalue solver ('KS_method') not specified in 'control.in'.
+  Defaulting to serial version, LAPACK (via ELSI), since more k-points than CPUs available.
+  Will not use alltoall communication since running on < 1024 CPUs.
+  Threshold for basis singularities not set.
+  Default threshold for basis singularities:  0.1000E-04
+  partition_type (choice of integration weights) for integrals was not specified.
+  | Using a version of the partition function of Stratmann and coworkers ('stratmann_sparse').
+  | At each grid point, the set of atoms used to build the partition table is smoothly restricted to
+  | only those atoms whose free-atom density would be non-zero at that grid point.
+  Partitioning for Hartree potential was not defined. Using partition_type for integrals.
+  | Adjusted default value of keyword multip_moments_threshold to:       0.10000000E-11
+  | This value may affect high angular momentum components of the Hartree potential in periodic systems.
+  Spin handling was not defined in control.in. Defaulting to unpolarized case.
+  Threshold for auxiliary basis singularities not set.
+  Default threshold for auxiliary basis singularities:  0.1000E-04
+  No q(lm)/r^(l+1) cutoff set for long-range Hartree potential.
+  | Using default value of  0.100000E-09 .
+  | Verify using the multipole_threshold keyword.
+  Defaulting to new monopole extrapolation.
+  Density update method: automatic selection selected.
+  Using density matrix based charge density update.
+  Using density matrix based charge density update.
+  Using packed matrix style: index .
+ * NOTE: You are attempting to run a periodic structure with an exchange treatment
+ * which requires a two-electron Coulomb operator (Hartree-Fock or a hybrid functional).
+ * The present implementation is reliable to our knowledge, but some things
+ * (like band structure output, or perhaps the auxilary basis set for small
+ * orbital basis sets - see the "for_aux" keyword) require extra care.
+ * Please let us know if you encounter any trouble.
+  Coulomb operator: Defaulting to screening threshold for four-center integrals:   0.100000E-06
+  Coulomb operator: Defaulting to screening threshold for Coulomb matrix:   0.100000E-09
+  Fock matrix calculation: Setting the screening threshold for overlap matrix to coul_mat_threshold:   0.100000E-09
+  Coulomb operator: Defaulting to 'LVL_fast' resolution of identity - RI_type = LVL_fast 
+  No other resolution of identity version is supported for periodic boundary conditions at present.
+  Coulomb operator: Defaulting to logarithmic spherical Bessel transform integrals (use_logsbt .true.).
+  HSE with LVL_fast: Also defaulting to logarithmic spherical Bessel transform integrals.
+  Defaulting to use time-reversal symmetry for k-point grid.
+  Charge integration errors on the 3D integration grid will be compensated
+  by explicit normalization and distribution of residual charges.
+  Use the "compensate_multipole_errors" flag to change this behaviour.
+  LVL not implemented with density matrix yet
+  -> switching to transformed overlap
+  LVL probably works better with logsbt
+  Default to 1D ("use_logsbt") integrations for auxiliary 2-center integrals.
+  Default onset of logarithmic r-grid for SBT is -38.000000000000
+  Default onset of logarithmic k-grid for SBT is -25.000000000000
+  Default range of logarithmic r- and k-grid for SBT is  45.000000000000
+  Default number of logarithmic r- and k-grid for SBT is   4096
+  * Use logSBT for radial HSE integration, too
+ 
+ * Error. Band structure and exact exchange are requested at the same time,
+ * but the keyword 'exx_band_structure_version' is not set.
+ * We require that this keyword be set explicitly to make sure that our
+ * users understand a specific aspect of the current band structure
+ * calculation framework for hybrid density functionals with FHI-aims.
+ * This has been used successfully by many groups for published work,
+ * but please be sure to understand the current usage. 
+ * 
+ * There are two variants of the band structure calculation for hybrid
+ * density functionals: 
+ * 
+ * --- exx_band_structure_version 1 :
+ *     This version is evaluated in a real-space formalism. It is fast
+ *     and the preferred version. HOWEVER, it does require a sufficiently
+ *     dense 'k_grid' to be used for the preceding s.c.f. cycle.
+ *     If the 'k_grid used for s.c.f. is NOT dense enough, the real-
+ *     space approach will produce bands that are OBVIOUSLY incorrect.
+ *     You cannot miss this - they won't look 'slightly' correct. In
+ *     that case, please try to increase the 'k_grid' parameters used
+ *     for the s.c.f. cycle. In particular, please avoid k_grid dimensions 
+ *     of '1' (one) in any dimension. We apologize for this inconvenience.
+ *     On the bright side, if you use exx_band_structure_version 1 
+ *     correctly, it will give reliable results without much overhead.
+ * 
+ * --- exx_band_structure_version 2 : 
+ *     This version is evaluated completely in reciprocal space and does
+ *     not have any problems with sparse s.c.f. 'k_grid' settings. 
+ *     HOWEVER: exx_band_structure_version 2 is computationally VERY expensive.
+ *     Please only use it for verification and/or if, for some reason, you
+ *     cannot make exx_band_structure_version 1 work at all. The time and memory
+ *     demand of exx_band_structure_version 2 is very significant.
+ *     Ideally, at least work with a low number of k-points within band segments,
+ *     for example, 11 or less.
+ *** read_control:
+ *** read_control:
+ 
+ 

@@ -1,0 +1,103 @@
+old_path,new_path,reason
+bcc/0.7/0.7,bcc/eos_m06l/a_3.500/scf,EOS (inner of nested) a=3.500
+bcc/0.75/0.75,bcc/eos_m06l/a_3.750/scf,EOS (inner of nested) a=3.750
+bcc/0.8/0.8,bcc/eos_m06l/a_4.000/scf,EOS (inner of nested) a=4.000
+bcc/0.85/0.85,bcc/eos_m06l/a_4.250/scf,EOS (inner of nested) a=4.250
+bcc/0.9/0.9,bcc/eos_m06l/a_4.500/scf,EOS (inner of nested) a=4.500
+bcc/0.95/0.95,bcc/eos_m06l/a_4.750/scf,EOS (inner of nested) a=4.750
+bcc/dos,bcc/dos_hse06,final DOS with hse06
+bcc/relax/dos,bcc/relax_pbe/dos,DOS at relaxed geometry
+bcc/relax,bcc/relax_pbe/scf,original PBE relaxation
+bcc/relax313/dos,bcc/eos_m06l/a_3.130/dos,EOS point a=3.130
+bcc/relax313,bcc/eos_m06l/a_3.130/scf,EOS point a=3.130
+bcc/relax314/dos,bcc/eos_m06l/a_3.140/dos,EOS point a=3.140
+bcc/relax314,bcc/eos_m06l/a_3.140/scf,EOS point a=3.140
+bcc/relax315/dos,bcc/eos_m06l/a_3.150/dos,EOS point a=3.150
+bcc/relax315,bcc/eos_m06l/a_3.150/scf,EOS point a=3.150
+bcc/relax316/dos,bcc/eos_m06l/a_3.160/dos,EOS point a=3.160
+bcc/relax316,bcc/eos_m06l/a_3.160/scf,EOS point a=3.160
+bcc/relax317/dos,bcc/eos_m06l/a_3.170/dos,EOS point a=3.170
+bcc/relax317,bcc/eos_m06l/a_3.170/scf,EOS point a=3.170
+bcc/relax318/dos,bcc/eos_m06l/a_3.180/dos,EOS point a=3.180
+bcc/relax318,bcc/eos_m06l/a_3.180/scf,EOS point a=3.180
+bcc/relax319/dos,bcc/eos_m06l/a_3.190/dos,EOS point a=3.190
+bcc/relax319,bcc/eos_m06l/a_3.190/scf,EOS point a=3.190
+bcc/relax320/dos,bcc/eos_m06l/a_3.200/dos,EOS point a=3.200
+bcc/relax320,bcc/eos_m06l/a_3.200/scf,EOS point a=3.200
+bcc/relax321,bcc/eos_m06l/a_3.210/scf,EOS point a=3.210
+bcc/relax321/relax321,bcc/eos_m06l/a_3.210/scf,EOS point a=3.210
+bcc/relax322,bcc/eos_m06l/a_3.220/scf,EOS point a=3.220
+bcc/relax322/relax322,bcc/eos_m06l/a_3.220/scf,EOS point a=3.220
+bcc/relax323,bcc/eos_m06l/a_3.230/scf,EOS point a=3.230
+bcc/relax323/relax323,bcc/eos_m06l/a_3.230/scf,EOS point a=3.230
+bcc/relax325/dos,bcc/eos_m06l/a_3.250/dos,EOS point a=3.250
+bcc/relax325,bcc/eos_m06l/a_3.250/scf,EOS point a=3.250
+bcc/relax330/dos,bcc/eos_m06l/a_3.300/dos,EOS point a=3.300
+bcc/relax330,bcc/eos_m06l/a_3.300/scf,EOS point a=3.300
+bcc/relax80/dos,bcc/eos_m06l/a_2.800/dos,EOS point a=2.800
+bcc/relax80,bcc/eos_m06l/a_2.800/scf,EOS point a=2.800
+cl/0.5/dos,cl/eos_m06l/a_3.112/dos,EOS DOS at a=3.112
+cl/0.55/0.55,cl/eos_m06l/a_3.423/scf,EOS (inner of nested) a=3.423
+cl/0.57/0.57,cl/eos_m06l/a_3.547/scf,EOS (inner of nested) a=3.547
+cl/0.58/0.58,cl/eos_m06l/a_3.610/scf,EOS (inner of nested) a=3.610
+cl/0.59/0.59,cl/eos_m06l/a_3.672/scf,EOS (inner of nested) a=3.672
+cl/0.592/0.592,cl/eos_m06l/a_3.684/scf,EOS (inner of nested) a=3.684
+cl/0.594/0.594,cl/eos_m06l/a_3.697/scf,EOS (inner of nested) a=3.697
+cl/0.596/0.596,cl/eos_m06l/a_3.709/scf,EOS (inner of nested) a=3.709
+cl/0.598/0.598,cl/eos_m06l/a_3.722/scf,EOS (inner of nested) a=3.722
+cl/0.6/dos,cl/eos_m06l/a_3.734/dos,EOS DOS at a=3.734
+cl/0.6,cl/eos_m06l/a_3.734/scf,EOS point a=3.734
+cl/0.602/0.602,cl/eos_m06l/a_3.747/scf,EOS (inner of nested) a=3.747
+cl/0.604/0.604,cl/eos_m06l/a_3.759/scf,EOS (inner of nested) a=3.759
+cl/0.62,cl/eos_m06l/a_3.859/scf,EOS point a=3.859
+cl/0.64/0.64,cl/eos_m06l/a_3.983/scf,EOS (inner of nested) a=3.983
+cl/0.66/0.66,cl/eos_m06l/a_4.108/scf,EOS (inner of nested) a=4.108
+cl/0.7/0.7,cl/eos_m06l/a_4.356/scf,EOS (inner of nested) a=4.356
+cl/0.75/0.75,cl/eos_m06l/a_4.668/scf,EOS (inner of nested) a=4.668
+cl/0.8/0.8,cl/eos_m06l/a_4.979/scf,EOS (inner of nested) a=4.979
+cl/0.85/0.85,cl/eos_m06l/a_5.290/scf,EOS (inner of nested) a=5.290
+cl/0.9/0.9,cl/eos_m06l/a_5.601/scf,EOS (inner of nested) a=5.601
+cl/0.95/0.95,cl/eos_m06l/a_5.912/scf,EOS (inner of nested) a=5.912
+cl/1/dos,cl/eos_m06l/a_6.223/dos,EOS DOS at a=6.223
+fcc/0.7/0.7,fcc/eos_m06l/a_3.500/scf,EOS (inner of nested) a=3.500
+fcc/0.75/0.75,fcc/eos_m06l/a_3.750/scf,EOS (inner of nested) a=3.750
+fcc/0.8/0.8,fcc/eos_m06l/a_4.000/scf,EOS (inner of nested) a=4.000
+fcc/0.85/0.85,fcc/eos_m06l/a_4.250/scf,EOS (inner of nested) a=4.250
+fcc/0.9/0.9,fcc/eos_m06l/a_4.500/scf,EOS (inner of nested) a=4.500
+fcc/0.95/0.95,fcc/eos_m06l/a_4.750/scf,EOS (inner of nested) a=4.750
+fcc/dos,fcc/dos_pbe,final DOS with pbe
+fcc/relax/dos,fcc/relax_pbe/dos,DOS at relaxed geometry
+fcc/relax,fcc/relax_pbe/scf,original PBE relaxation
+fcc/relax0.5/dos,fcc/relax_from_scale/scale_0.5/dos,relaxation from scale 0.5
+fcc/relax0.5,fcc/relax_from_scale/scale_0.5/scf,relaxation from scale 0.5
+fcc/relax0.75/dos,fcc/relax_from_scale/scale_0.75/dos,relaxation from scale 0.75
+fcc/relax0.75,fcc/relax_from_scale/scale_0.75/scf,relaxation from scale 0.75
+fcc/relax1/dos,fcc/relax_from_scale/scale_1.0/dos,relaxation from scale 1.0
+fcc/relax1,fcc/relax_from_scale/scale_1.0/scf,relaxation from scale 1.0
+fcc/relax27/dos,fcc/eos_m06l/a_3.270/dos,EOS point a=3.270
+fcc/relax27,fcc/eos_m06l/a_3.270/scf,EOS point a=3.270
+fcc/relax28/dos,fcc/eos_m06l/a_3.280/dos,EOS point a=3.280
+fcc/relax28,fcc/eos_m06l/a_3.280/scf,EOS point a=3.280
+fcc/relax29/dos,fcc/eos_m06l/a_3.290/dos,EOS point a=3.290
+fcc/relax29,fcc/eos_m06l/a_3.290/scf,EOS point a=3.290
+fcc/relax30/dos,fcc/eos_m06l/a_3.300/dos,EOS point a=3.300
+fcc/relax31/dos,fcc/eos_m06l/a_3.310/dos,EOS point a=3.310
+fcc/relax31,fcc/eos_m06l/a_3.310/scf,EOS point a=3.310
+fcc/relax32/dos,fcc/eos_m06l/a_3.320/dos,EOS point a=3.320
+fcc/relax32,fcc/eos_m06l/a_3.320/scf,EOS point a=3.320
+fcc/relax33/dos,fcc/eos_m06l/a_3.330/dos,EOS point a=3.330
+fcc/relax33,fcc/eos_m06l/a_3.330/scf,EOS point a=3.330
+fcc/relax34/dos,fcc/eos_m06l/a_3.340/dos,EOS point a=3.340
+fcc/relax34,fcc/eos_m06l/a_3.340/scf,EOS point a=3.340
+fcc/relax35/dos,fcc/eos_m06l/a_3.350/dos,EOS point a=3.350
+fcc/relax35,fcc/eos_m06l/a_3.350/scf,EOS point a=3.350
+fcc/relax36/dos,fcc/eos_m06l/a_3.360/dos,EOS point a=3.360
+fcc/relax36,fcc/eos_m06l/a_3.360/scf,EOS point a=3.360
+fcc/relax37/dos,fcc/eos_m06l/a_3.370/dos,EOS point a=3.370
+fcc/relax37,fcc/eos_m06l/a_3.370/scf,EOS point a=3.370
+fcc/relax38,fcc/eos_m06l/a_3.380/scf,EOS point a=3.380
+fcc/relax42,fcc/eos_m06l/a_3.420/scf,EOS point a=3.420
+fcc/relax45,fcc/eos_m06l/a_3.450/scf,EOS point a=3.450
+fcc/relax45/relax45/dos,fcc/eos_m06l/a_3.450/dos,EOS point a=3.450
+fcc/relax5,fcc/eos_m06l/a_5.000/scf,EOS point a=5.000
+fcc/relax5/relax5,fcc/eos_m06l/a_5.000/scf,EOS point a=5.000

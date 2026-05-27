@@ -1,0 +1,695 @@
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+Checking permissions to load module. User shall belong to group fhiaimsACL.
+User mkryn belongs to following groups: icm-users vaspACL vasp5ACL okeanosACL fhiaimsACL topolaACL G59-19 GB84-5
+ User mkryn belongs to group fhiaimsACL and is allowed to use apps/fhi-aims/221103.
+ 'apps/fhi-aims/221103' load complete.
+
+Loading apps/fhi-aims/221103
+  Loading requirement: common/mpi/openmpi/4.1.5
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+==========================================
+SLURM_JOB_ID = 7917114
+SLURM_JOB_NODELIST = t11-14
+==========================================
+------------------------------------------------------------
+          Invoking FHI-aims ...
+
+          When using FHI-aims, please cite the following reference:
+
+            Volker Blum, Ralf Gehrke, Felix Hanke, Paula Havu,
+            Ville Havu, Xinguo Ren, Karsten Reuter, and Matthias Scheffler,
+            'Ab Initio Molecular Simulations with Numeric Atom-Centered Orbitals',
+            Computer Physics Communications 180, 2175-2196 (2009)
+
+          In addition, many other developments in FHI-aims are likely important for
+          your particular application. A partial list of references is given at the end of
+          this file. Thank you for giving credit to the authors of these developments.
+
+          For any questions about FHI-aims, please visit our slack channel at
+
+            https://fhi-aims.slack.com
+
+          and our main development and support site at
+
+            https://aims-git.rz-berlin.mpg.de .
+
+          The latter site, in particular, has a wiki to collect information, as well
+          as an issue tracker to log discussions, suggest improvements, and report issues
+          or bugs. https://aims-git.rz-berlin.mpg.de is also the main development site
+          of the project and all new and updated code versions can be obtained there.
+          Please send an email to aims-coordinators@fhi-berlin.mpg.de and we will add
+          you to these sites. They are for you and everyone is welcome there.
+
+------------------------------------------------------------
+
+
+
+  Date     :  20240718, Time     :  135353.596
+  Time zero on CPU 1             :   0.308537000000000E+00  s.
+  Internal wall clock time zero  :           490542833.596  s.
+
+  FHI-aims created a unique identifier for this run for later identification
+  aims_uuid : CA9FD830-B2D3-4C53-AE14-17DDA0B35DD0
+
+  Build configuration of the current instance of FHI-aims
+  -------------------------------------------------------
+  FHI-aims version      : 221103
+  Commit number         : GITDIR-NOTFOUND
+  CMake host system     : Linux-3.10.0-1160.88.1.el7.x86_64
+  CMake version         : 3.26.4
+  Fortran compiler      : /apps/common/mpi/openmpi/4.1.5/GCC-12.3/bin/mpifort (GNU) version 12.3.0
+  Fortran compiler flags: -O2 -march=native -mtune=native -fallow-argument-mismatch -ffree-line-length-none -fopenmp -O3 -DNDEBUG -O3
+  C compiler            : /apps/common/mpi/openmpi/4.1.5/GCC-12.3/bin/mpicc (GNU) version 12.3.0
+  C compiler flags      : -O2 -march=native -mtune=native -fopenmp -O3 -DNDEBUG
+  HIP compiler          :
+  HIP compiler flags    :
+  HIP GPU arch          :
+  Using MPI
+  Using ScaLAPACK
+  Using LibXC
+  Using i-PI
+  Using HDF5
+  Using RLSY
+  Linking against: /apps/libs/libxc/6.2.2/GCC-12.3/lib/libxcf03.so
+                   /apps/libs/libxc/6.2.2/GCC-12.3/lib/libxcf90.so
+                   /apps/libs/libxc/6.2.2/GCC-12.3/lib/libxc.so
+                   /apps/libs/hdf5/1.10.10-par/GCC-12.3/lib/libhdf5_fortran.so
+                   /apps/libs/hdf5/1.10.10-par/GCC-12.3/lib/libhdf5.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libelsi.so
+                   /apps/libs/elpa/2023.05/GCC-12.3/lib/libelpa.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/bundled-omm/lib/libOMM.a
+                   /apps/libs/elsi/2.9.0/GCC-12.3/bundled-omm/lib/libMatrixSwitch.a
+                   /apps/libs/pexsi/0.9.2/GCC-12.3/lib/libpexsi.a
+                   /apps/libs/eigenexa/2.4p1/GCC-12.3/lib/libEigenExa.a
+                   /apps/libs/superlu-dist/4.3/GCC-12.3/lib/libsuperlu-dist.a
+                   /apps/libs/parmetis/4.0.3/GCC-12.3/lib/libparmetis.a
+                   /apps/libs/metis/5.1.1/GCC-12.3/lib/libmetis.a
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libbsepack.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libfortjson.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libNTPoly.so
+                   /apps/libs/elsi/2.9.0/GCC-12.3/lib/libsseig.so
+                   /apps/libs/scalapack/2.2.1/GCC-12.3/lib/libscalapack.a
+                   /apps/libs/openblas/0.3.23/GCC-12.3/lib64/libopenblas.a
+                   /usr/lib64/libm.so
+
+  Using       28 parallel tasks.
+  Task        0 on host t11-14 reporting.
+  Task        1 on host t11-14 reporting.
+  Task        2 on host t11-14 reporting.
+  Task        3 on host t11-14 reporting.
+  Task        4 on host t11-14 reporting.
+  Task        5 on host t11-14 reporting.
+  Task        6 on host t11-14 reporting.
+  Task        7 on host t11-14 reporting.
+  Task        8 on host t11-14 reporting.
+  Task        9 on host t11-14 reporting.
+  Task       10 on host t11-14 reporting.
+  Task       11 on host t11-14 reporting.
+  Task       12 on host t11-14 reporting.
+  Task       13 on host t11-14 reporting.
+  Task       14 on host t11-14 reporting.
+  Task       15 on host t11-14 reporting.
+  Task       16 on host t11-14 reporting.
+  Task       17 on host t11-14 reporting.
+  Task       18 on host t11-14 reporting.
+  Task       19 on host t11-14 reporting.
+  Task       20 on host t11-14 reporting.
+  Task       21 on host t11-14 reporting.
+  Task       22 on host t11-14 reporting.
+  Task       23 on host t11-14 reporting.
+  Task       24 on host t11-14 reporting.
+  Task       25 on host t11-14 reporting.
+  Task       26 on host t11-14 reporting.
+  Task       27 on host t11-14 reporting.
+
+  Performing system and environment tests:
+  | Environment variable OMP_NUM_THREADS correctly set to 1.
+  | Checking for ScaLAPACK...
+  | Testing pdtran()...
+  | All pdtran() tests passed.
+
+  Obtaining array dimensions for all initial allocations:
+  
+  -----------------------------------------------------------------------
+  Parsing control.in (first pass over file, find array dimensions only).
+  The contents of control.in will be repeated verbatim below
+  unless switched off by setting 'verbatim_writeout .false.' .
+  in the first line of control.in .
+  -----------------------------------------------------------------------
+  
+  xc                         pbe
+  #hse_unit                   bohr
+  #hybrid_xc_coeff            0.25
+  #relativistic               atomic_zora scalar
+  k_grid                     12 12 12
+  exx_band_structure_version 1
+  output                     dos    -20 20 15001 0.1
+  output                     band   0.00000  0.00000  0.00000   0.50000  0.00000  0.50000   35 G  X
+  output                     band   0.50000  0.00000  0.50000   0.50000  0.25000  0.75000   17 X  W
+  output                     band   0.50000  0.25000  0.75000   0.37500  0.37500  0.75000   12 W  K
+  output                     band   0.37500  0.37500  0.75000   0.00000  0.00000  0.00000   37 K  G
+  output                     band   0.00000  0.00000  0.00000   0.50000  0.50000  0.50000   30 G  L
+  output                     band   0.50000  0.50000  0.50000   0.62500  0.25000  0.62500   21 L  U
+  output                     band   0.62500  0.25000  0.62500   0.50000  0.25000  0.75000   12 U  W
+  output                     band   0.50000  0.25000  0.75000   0.50000  0.50000  0.50000   24 W  L
+  output                     band   0.50000  0.50000  0.50000   0.37500  0.37500  0.75000   21 L  K
+  output                     band   0.62500  0.25000  0.62500   0.50000  0.00000  0.50000   12 U  X
+  
+  
+  
+  ################################################################################
+  #
+  #  FHI-aims code project
+  #  Volker Blum, 2017
+  #
+  #  Suggested "intermediate" defaults for Cl atom (to be pasted into control.in file)
+  #
+  ################################################################################
+    species        Cl
+  #     global species definitions
+      nucleus             17
+      mass                35.453
+  #
+      l_hartree           6
+  #
+      cut_pot             4.0          2.0  1.0
+      basis_dep_cutoff    1e-4
+  #
+      radial_base         45 7.0
+      radial_multiplier   2
+      angular_grids       specified
+        division   0.4412  110
+        division   0.5489  194
+        division   0.6734  302
+        division   0.7794  434
+  #      division   0.9402  590
+  #      division   1.0779  770
+  #      division   1.1792  974
+  #      outer_grid  974
+        outer_grid  434
+  ################################################################################
+  #
+  #  Definition of "minimal" basis
+  #
+  ################################################################################
+  #     valence basis states
+      valence      3  s   2.
+      valence      3  p   5.
+  #     ion occupancy
+      ion_occ      3  s   1.
+      ion_occ      3  p   4.
+  ################################################################################
+  #
+  #  Suggested additional basis functions. For production calculations,
+  #  uncomment them one after another (the most important basis functions are
+  #  listed first).
+  #
+  #  Constructed for dimers: 1.65 A, 2.0 A, 2.5 A, 3.25 A, 4.0 A
+  #
+  ################################################################################
+  #  "First tier" - improvements: -429.57 meV to -15.03 meV
+       ionic 3 d auto
+       hydro 2 p 1.9
+       hydro 4 f 7.4
+       ionic 3 s auto
+       for_aux     hydro 5 g 10.4
+  #  "Second tier" - improvements: -7.84 meV to -0.48 meV
+  #     hydro 3 d 3.3
+  #     hydro 5 f 9.8
+  #     hydro 1 s 0.75
+  #     hydro 5 g 11.2
+  #     hydro 4 p 10.4
+  #  "Third tier" - improvements: -1.00 meV to -0.12 meV
+  #     hydro 4 d 12.8
+  #     hydro 4 f 4.6
+  #     hydro 4 d 10.8
+  #     hydro 2 s 1.8
+  #     hydro 3 p 3
+  #  Further functions that fell out - improvements: -0.10 meV and below
+  #     hydro 5 f 14.4
+  #     hydro 4 s 12.8
+  #     hydro 3 d 11.6
+  #     hydro 4 s 4.1
+  
+  
+  -----------------------------------------------------------------------
+  Completed first pass over input file control.in .
+  -----------------------------------------------------------------------
+  
+  
+  -----------------------------------------------------------------------
+  Parsing geometry.in (first pass over file, find array dimensions only).
+  The contents of geometry.in will be repeated verbatim below
+  unless switched off by setting 'verbatim_writeout .false.' .
+  in the first line of geometry.in .
+  -----------------------------------------------------------------------
+  
+ *** Proc   19: * Input file geometry.in not found.
+ 
+ *** Proc   19: * Input file geometry.in not found.
+ 
+ *** Proc   27: * Input file geometry.in not found.
+ 
+ *** Proc   27: * Input file geometry.in not found.
+ 
+ *** Proc   10: * Input file geometry.in not found.
+ 
+ *** Proc   10: * Input file geometry.in not found.
+ 
+ *** Proc    4: * Input file geometry.in not found.
+ 
+ *** Proc    4: * Input file geometry.in not found.
+ 
+ *** Proc    2: * Input file geometry.in not found.
+ 
+ *** Proc    2: * Input file geometry.in not found.
+ 
+ *** Proc   24: * Input file geometry.in not found.
+ 
+ *** Proc   24: * Input file geometry.in not found.
+ 
+ *** Proc    5: * Input file geometry.in not found.
+ 
+ *** Proc    5: * Input file geometry.in not found.
+ 
+ *** Proc   11: * Input file geometry.in not found.
+ 
+ *** Proc   11: * Input file geometry.in not found.
+ 
+ *** Proc    7: * Input file geometry.in not found.
+ 
+ *** Proc    7: * Input file geometry.in not found.
+ 
+ *** Proc    9: * Input file geometry.in not found.
+ 
+ *** Proc    9: * Input file geometry.in not found.
+ 
+ *** Proc   20: * Input file geometry.in not found.
+ *** Proc   20: * Input file geometry.in not found.
+ 
+ 
+ *** Proc   13: * Input file geometry.in not found.
+ *** Proc   13: * Input file geometry.in not found.
+ 
+ 
+ *** Proc   18: * Input file geometry.in not found.
+ 
+ *** Proc   18: * Input file geometry.in not found.
+ 
+ *** Proc   16: * Input file geometry.in not found.
+ 
+ *** Proc   16: * Input file geometry.in not found.
+ 
+ *** Proc    1: * Input file geometry.in not found.
+ 
+ *** Proc   12: * Input file geometry.in not found.
+ 
+ *** Proc   12: * Input file geometry.in not found.
+ 
+ *** Proc   14: * Input file geometry.in not found.
+ 
+ *** Proc   14: * Input file geometry.in not found.
+ 
+ *** Proc   26: * Input file geometry.in not found.
+ 
+ *** Proc   26: * Input file geometry.in not found.
+ 
+ *** Proc    1: * Input file geometry.in not found.
+ 
+ *** Proc   23: * Input file geometry.in not found.
+ 
+ *** Proc   23: * Input file geometry.in not found.
+ 
+ *** Proc   22: * Input file geometry.in not found.
+ 
+ *** Proc   22: * Input file geometry.in not found.
+ 
+ *** Proc   15: * Input file geometry.in not found.
+ 
+ *** Proc   15: * Input file geometry.in not found.
+ *** Proc   21: * Input file geometry.in not found.
+ 
+ 
+ *** Proc   21: * Input file geometry.in not found.
+ 
+ *** Proc   17: * Input file geometry.in not found.
+ *** Proc   17: * Input file geometry.in not found.
+ 
+ 
+ *** Proc    3: * Input file geometry.in not found.
+ *** Proc    3: * Input file geometry.in not found.
+ 
+ 
+ *** Proc    6: * Input file geometry.in not found.
+ 
+ *** Proc    6: * Input file geometry.in not found.
+ 
+ *** Proc    8: * Input file geometry.in not found.
+ 
+ *** Proc    8: * Input file geometry.in not found.
+ 
+ *** Proc   25: * Input file geometry.in not found.
+ 
+ *** Proc   25: * Input file geometry.in not found.
+ 
+ *** Proc    0: * Input file geometry.in not found.
+ 
+ *** Proc    0: * Input file geometry.in not found.
+ 
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 19 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 24 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 27 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 2 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 4 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 5 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 7 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 9 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 10 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 11 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 12 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 13 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 14 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 16 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 20 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 26 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 1 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 3 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 6 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+srun: Job step aborted: Waiting up to 122 seconds for job step to finish.
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 8 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 15 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 17 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 21 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 22 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 23 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 25 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 18 in communicator MPI_COMM_WORLD
+with errorcode 0.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+slurmstepd: error: *** STEP 7917114.0 ON t11-14 CANCELLED AT 2024-07-18T13:53:53 ***
+srun: error: t11-14: tasks 0-18,20-26: Killed
