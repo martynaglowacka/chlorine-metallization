@@ -1,0 +1,5 @@
+*.out linguist-detectable=false
+*.dat linguist-detectable=false
+*.in linguist-detectable=false
+*.vasp linguist-detectable=false
+*.vesta linguist-detectable=false
