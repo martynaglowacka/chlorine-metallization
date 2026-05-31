@@ -14,6 +14,8 @@ DFT (FHI-aims) study of solid Cl in three phases — **molecular Cl₂**, **bcc*
 
 PBE for geometry relaxations, M06-L for the EOS sweep, HSE06 for the final DOS (bcc only — fcc DOS used PBE). k-grid 12×12×12, 2-atom cubic cell.
 
+Band gaps were determined by direct inspection of the DOS output rather than the HOMO-LUMO estimate printed by FHI-aims, which is known to be unreliable near metallization due to limited k-point sampling.
+
 ## Equation of state
 
 `fit_eos.py` parses the FHI-aims outputs, fits a Birch-Murnaghan EOS per phase, and writes `docs/eos_curves.png` and `docs/eos_fits.csv`. Run with `python3 fit_eos.py`.
